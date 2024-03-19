@@ -12,7 +12,7 @@
 #   }
 # }
 
-resource "tfe_workspace" "test" {
+resource "tfe_workspace" "my_tfe_workspace_module" {
   name         = var.workspace_name
   organization = var.organization
   queue_all_runs       = false
